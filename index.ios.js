@@ -20,6 +20,7 @@ export default class RNImage extends Component {
         <ReacNativeImage style={styles.icon}
                          source={{uri:'https://pic.qianmi.com/ejz/ejz2.0/img/mdygimg.png'}}
                          minShowImageTime={500}
+                         isOpenCache={false}
                          // source={require('./image/error.png')}
         />
       </View>
